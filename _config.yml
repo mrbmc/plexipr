@@ -5,7 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
-  press-releases:
+  press:
     title: Press Releases
     output: true
   uploads:
