@@ -13,7 +13,7 @@ Late Night Invite Only Fourth Show Added – **Thursday, August 18th at 11:45pm*
 
 *“Anaesthetically pleasing: ‘Ketamine the Musical’ opens in Bushwick”* – Brooklyn Paper
 
-![alt](https://siteleaf-cdn.s3.amazonaws.com/58c18fb281da9b4d039f4046/assets/58c2d4cc6d088b4160357b32.jpg)
+![Ketamine](https://siteleaf-cdn.s3.amazonaws.com/58c18fb281da9b4d039f4046/assets/58c2d4cc6d088b4160357b32.jpg)
 
 Following the initial announcement of **‘Ketamine: The Musical,’** an overwhelming demand has led to Brooklyn’s House of Yes extending their run for two additional performances, both of which have now sold out well in advance. Described as a “psychedelic, hyper-creative, hyper-weird, work of performance art” by director and venue co-owner Anya Sapozhnikova when speaking to Brooklyn Paper.  “We want it to be a little dissociative, but it’s basically a circus and physical theater musical.”
 
