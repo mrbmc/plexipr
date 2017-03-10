@@ -6,7 +6,7 @@ collections:
     title: Posts
     output: true
   press:
-    title: Press Releases
+    title: Press
     output: false
   uploads:
     title: Uploads
