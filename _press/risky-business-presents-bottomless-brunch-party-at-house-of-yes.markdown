@@ -5,7 +5,7 @@ date: 2017-03-09 13:09:00 -05:00
 
 **FOR IMMEDIATE RELEASE**
 
-![HOY_logo_black.png](/uploads/HOY_logo_black.png)
+![HOY_logo_black.png](/uploads/HOY_logo_black.png =100x100)
 
 \*\*Risky Business presents Bottomless! Brunch Party at House of Yes \
 \*\**A No Pants Dance In Your Underwear FREE All Day Party With Moose & Bear \+ More DJs\
