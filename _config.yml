@@ -7,8 +7,7 @@ collections:
     output: true
   press:
     title: Press Releases
-    output: true
-    permalink: http://plexipr.com/press
+    output: false
   uploads:
     title: Uploads
     output: true
