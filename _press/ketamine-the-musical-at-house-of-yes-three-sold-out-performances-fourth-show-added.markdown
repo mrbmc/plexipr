@@ -1,5 +1,5 @@
 ---
-title: 'Ketamine: The Musical’ at House of Yes; Three Sold Out Performances, Fourth
+title: '"Ketamine: The Musical" at House of Yes; Three Sold Out Performances, Fourth
   Show Added!'
 date: 2017-03-10 11:28:00 -05:00
 ---
