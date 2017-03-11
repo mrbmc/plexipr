@@ -1,6 +1,6 @@
 // Define defaults for each variable.
 
-$base-font-family: "Din","Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: "DIN","Roboto","Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -8,9 +8,9 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
+$text-color:       #333 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color:      #007dc6 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -35,9 +35,38 @@ $on-laptop:        800px !default;
   }
 }
 
+
+@font-face {
+    font-family:"DIN";
+    font-weight: 200;
+    src:url('/assets/fonts/DIN-Light.eot');
+    src:url('/assets/fonts/DIN-Light.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/DIN-Light.ttf') format('truetype');
+    src:url('/assets/fonts/DIN-Light.woff') format('woff');
+}
+@font-face {
+    font-family:"DIN";
+    font-weight: 400;
+    src:url('/assets/fonts/din_next_lt_pro-regular.eot');
+    src:url('/assets/fonts/din_next_lt_pro-regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/din_next_lt_pro-regular.ttf') format('truetype');
+    src:url('/assets/fonts/din_next_lt_pro-regular.woff') format('woff');
+}
+@font-face {
+    font-family:"DIN";
+    font-weight: 800;
+    src:url('/assets/fonts/din_next_lt_pro-bold.eot');
+    src:url('/assets/fonts/din_next_lt_pro-bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/din_next_lt_pro-bold.ttf') format('truetype');
+    src:url('/assets/fonts/din_next_lt_pro-bold.woff') format('woff');
+}
+
+
 // Import partials.
 @import
+  "plexi/mixins",
   "plexi/base",
   "plexi/layout",
+  "plexi/home",
   "plexi/syntax-highlighting"
 ;

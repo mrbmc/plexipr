@@ -1,13 +1,14 @@
 ---
 title: Plexi PR
+description: Dance Local. Think Global.
 timezone: America/New_York
 collections:
   posts:
     title: Posts
     output: true
   press:
-    title: Press
-    output: false
+    title: Press Releases
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -18,6 +19,12 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: press
+  values:
+    layout: post
+    permalink: "/press/:title/"
 - scope:
     path: ''
     type: pages

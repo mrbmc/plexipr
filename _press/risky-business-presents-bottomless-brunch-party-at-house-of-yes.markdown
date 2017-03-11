@@ -1,6 +1,7 @@
 ---
 title: Risky Business presents Bottomless! Brunch Party at House of Yes
 date: 2017-03-09 13:09:00 -05:00
+layout: post
 ---
 
 **FOR IMMEDIATE RELEASE**
