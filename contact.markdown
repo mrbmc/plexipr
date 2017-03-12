@@ -1,14 +1,14 @@
 ---
+title: Contact
+date: 2012-08-31 12:08:53 -04:00
 layout: page
 status: publish
-published: true
-title: Contact
 include_in_nav: false
-date: '2012-08-31 12:08:53 -0400'
 date_gmt: '2012-08-31 17:08:53 -0400'
 categories: []
 tags: []
 ---
+
 <h3></h3>
 <h3>Plexi PR</h3>
 <p>105 Ainslie St. <br />
