@@ -3,15 +3,10 @@ title: About Us
 date: 2017-03-09 12:25:00 -05:00
 classname: about
 include_in_nav: true
-layout: page
 categories:
 - Uncategorized
-tags: []
+layout: page
 ---
-
-<div class="masthead">
-	<h1>Bespoke Public Relations</h1>
-</div>
 
 Plexi PR is a boutique public relations firm dedicated to serving the electronic music industry. Based in Brooklyn, and founded in 2003 by native New Yorker Betty Kang, Plexi brings over 15 years of experience in the electronic music and nightlife industries to bear on its projects including: festivals, nightclubs, record labels and artist development.
 
