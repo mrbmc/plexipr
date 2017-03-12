@@ -2,6 +2,9 @@
 title: Plexi PR
 timezone: America/New_York
 collections:
+  posts:
+    title: Posts
+    output: true
   press:
     title: Press Releases
     output: true
