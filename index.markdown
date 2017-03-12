@@ -6,10 +6,13 @@ include_in_nav: false
 ---
 
 <div class="masthead">
-	<h1>Boutique Press Relations</h1>
+	<video autoplay loop>
+		<source src="/assets/plexi-background-web.mp4" type="video/mp4" />
+	</video>
+	<h1>Press Relations For The Music Industry</h1>
 </div>
 
 <ul class="home-nav">
-	<li><a href="/about/">About Plexi</a></li>
-	<li><a href="/press/">Press Releases</a></li>
+	<li><a href="/about/">About Us</a></li>
+	<li><a href="/press/">Newsroom</a></li>
 </ul>

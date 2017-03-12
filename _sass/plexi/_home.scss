@@ -1,78 +1,96 @@
+.home {	
+	.masthead {
+		// background: url('/assets/images/masthead.jpg');
+		background: #000;
+		background-size: cover;
+		background-position: center center;
 
-.masthead {
-	background: url('/assets/images/masthead.jpg');
-	background-size: cover;
-	background-position: center center;
-	height: calc(62vh - 50px);
-	position:relative;
-
-	&:before {
-		background: rgba(0,0,0,0.2);
-		position: absolute;
-		top: 0;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		content:"";
-	}
-
-	h1 {
-		position: relative;
-		z-index: 10;
-		margin: 0;
-		color: #ffffff;
-		text-align: center;
-		font-size: 3em;
-		font-weight: 200;
-
+		height: 70vh;
+		position:relative;
 		display: flex;
-		flex-direction: column;
-	}
-}
-.home-nav {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	flex-direction: row;
-	li {
-		box-sizing: border-box;
-		display: flex;
-		flex-basis: 50%;
 		align-items: center;
 		justify-content: center;
-		background: url('/assets/images/ezoo2013-blue.jpg');
-		background-position: center bottom;
-		background-size: cover;
 		overflow: hidden;
 
-		&:first-of-type {
-			border-left: 0;
-			background-position: center top;
+		&:before {
+			background: rgba(0,0,0,0.5);
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			content:"";
 		}
-		a {
-			background: rgba(0, 125, 198,.5);
-			background: rgba(0, 0, 0,.5);
-			height: calc(38vh - 50px);
-			display: flex;
-			flex-basis: 100%;
-			align-items: center;
-			justify-content: center;
 
-			color: #FFFFFF;
+		h1 {
+			position: relative;
+			z-index: 10;
+			margin: 0;
+			color: #ffffff;
 			text-align: center;
+			font-size: 3em;
+			font-weight: 200;
+		}
 
-			transition: all 250ms ease-out;
+		video {
+			position: absolute;
+			width: 100%;
+			@include opacity(.2);
 
-			&:hover {
-				transform: scale(1.2);
-				text-decoration: none;
-			}
+			position: absolute;
+			width: 100%;
 		}
 	}
-	&:after {
-		display: block;
-		content: "";
-		clear: both;
+	.home-nav {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+		li {
+			box-sizing: border-box;
+			display: flex;
+			flex-basis: 50%;
+			align-items: center;
+			justify-content: center;
+			background: url('/assets/images/ezoo2013-blue.jpg');
+			background-size: cover;
+			background-position: center top;
+			overflow: hidden;
+
+			&:first-of-type {
+				background: url('/assets/images/masthead.jpg');
+				// background: rgb(50,180,255);
+				// background: -moz-linear-gradient(-45deg, rgba(50,180,255,1) 0%, rgba(0,125,198,1) 50%, rgba(0,101,160,1) 100%);
+				// background: -webkit-linear-gradient(-45deg, rgba(50,180,255,1) 0%,rgba(0,125,198,1) 50%,rgba(0,101,160,1) 100%);
+				// background: linear-gradient(135deg, rgba(50,180,255,1) 0%,rgba(0,125,198,1) 50%,rgba(0,101,160,1) 100%);
+				// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32b4ff', endColorstr='#0065a0',GradientType=1 );
+
+				// background-position: center bottom;
+			}
+			a {
+				background: rgba(0, 125, 198,.8);
+				height: calc(30vh - 50px);
+				display: flex;
+				flex-basis: 100%;
+				align-items: center;
+				justify-content: center;
+
+				color: #FFFFFF;
+				text-align: center;
+
+				transition: all 250ms ease-out;
+
+				&:hover {
+					transform: scale(1.2);
+					text-decoration: none;
+				}
+			}
+		}
+		&:after {
+			display: block;
+			content: "";
+			clear: both;
+		}
 	}
 }

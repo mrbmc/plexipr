@@ -5,23 +5,21 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
             {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
-            <li><a class="social-link" href="http://twitter.com/plexipr"><i class="social_twitter"></i></a></li>
-            <li><a class="social-link" href="http://instagram.com/plexipr"><i class="social_instagram"></i></a></li>
 
+<!--             <li><a class="social-link" href="http://twitter.com/plexipr"><i class="social_twitter"></i></a></li>
+            <li><a class="social-link" href="http://instagram.com/plexipr"><i class="social_instagram"></i></a></li>
+ -->
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
+        <p>{{ site.description | escape }}</p>
+      </div>
+
+      <div class="footer-col footer-col-3">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -37,9 +35,6 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
     </div>
 
   </div>
