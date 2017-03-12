@@ -11,13 +11,13 @@ layout: default
         {{ content }}
 
         <ul class="post-list">
-          {% for post in site.press %}
+          {% assign sorted = (site.press | sort: 'date') | reverse %}
+          {% for post in sorted %}
             <li>
               <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
               <h2>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
               </h2>
-              <p> {{ post.excerpt }}</p>
             </li>
           {% endfor %}
         </ul>

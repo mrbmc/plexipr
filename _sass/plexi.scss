@@ -60,11 +60,20 @@ $on-laptop:        800px !default;
         url('/assets/fonts/din_next_lt_pro-bold.ttf') format('truetype');
     src:url('/assets/fonts/din_next_lt_pro-bold.woff') format('woff');
 }
+@font-face {
+    font-family:"ICONS";
+    font-weight: 200;
+    src:url('/assets/fonts/DIN-Light.eot');
+    src:url('/assets/fonts/DIN-Light.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/DIN-Light.ttf') format('truetype');
+    src:url('/assets/fonts/DIN-Light.woff') format('woff');
+}
 
 
 // Import partials.
 @import
   "plexi/mixins",
+  "plexi/icons",
   "plexi/base",
   "plexi/layout",
   "plexi/home",

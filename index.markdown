@@ -8,6 +8,7 @@ include_in_nav: false
 <div class="masthead">
 	<h1>Boutique Press Relations</h1>
 </div>
+
 <ul class="home-nav">
 	<li><a href="/about/">About Plexi</a></li>
 	<li><a href="/press/">Press Releases</a></li>
