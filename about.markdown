@@ -1,7 +1,7 @@
 ---
 title: About Us
-classname: about
 date: 2017-03-09 12:25:00 -05:00
+classname: about
 include_in_nav: true
 layout: page
 categories:
