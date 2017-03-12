@@ -7,7 +7,7 @@ collections:
     output: true
   press:
     title: Press Releases
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
