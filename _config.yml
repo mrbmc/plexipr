@@ -1,6 +1,5 @@
 ---
 title: Plexi PR
-description: Dance Local. Think Global.
 timezone: America/New_York
 collections:
   press:
@@ -21,4 +20,5 @@ defaults:
     type: pages
   values:
     layout: page
+description: Dance Local. Think Global.
 permalink: pretty
