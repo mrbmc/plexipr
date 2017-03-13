@@ -9,7 +9,7 @@ layout: home
 	<video autoplay loop>
 		<source src="/assets/plexi-background-web.mp4" type="video/mp4" />
 	</video>
-	<h1>Boutique Press Relations For Electronic Dance Music</h1>
+	<h1>Boutique PR For<br />Electronic Dance Music</h1>
 </div>
 
 <ul class="home-nav">
