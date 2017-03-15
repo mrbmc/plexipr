@@ -42,6 +42,13 @@
 			position: absolute;
 			width: 100%;
 		}
+
+		@include media-query($on-palm) {
+			height: 50vh;
+			h1 {
+				font-size: 2em;
+			}
+		}
 	}
 	.home-nav {
 		list-style-type: none;
@@ -62,14 +69,8 @@
 
 			&:first-of-type {
 				background: url('/assets/images/masthead.jpg');
-				// background: rgb(50,180,255);
-				// background: -moz-linear-gradient(-45deg, rgba(50,180,255,1) 0%, rgba(0,125,198,1) 50%, rgba(0,101,160,1) 100%);
-				// background: -webkit-linear-gradient(-45deg, rgba(50,180,255,1) 0%,rgba(0,125,198,1) 50%,rgba(0,101,160,1) 100%);
-				// background: linear-gradient(135deg, rgba(50,180,255,1) 0%,rgba(0,125,198,1) 50%,rgba(0,101,160,1) 100%);
-				// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32b4ff', endColorstr='#0065a0',GradientType=1 );
-
-				// background-position: center bottom;
 			}
+
 			a {
 				background: rgba(0, 125, 198,.8);
 				height: calc(30vh - 50px);
@@ -93,6 +94,13 @@
 			display: block;
 			content: "";
 			clear: both;
+		}
+		@include media-query($on-palm) {
+			li {
+				a {
+					height: calc(50vh - 50px);
+				}
+			}
 		}
 	}
 }

@@ -26,3 +26,24 @@ defaults:
 description: Dance Local. Think Global.
 permalink: pretty
 google_analytics: UA-134499-3
+layout: compress
+sass:
+  style: compressed
+  souremaps: true
+# minifier settings
+minibundle:
+  minifier_commands:
+    js: uglifyjs -
+  source_dir: _assets/js
+  destination_path: /assets/head
+  assets:
+    - plexipr
+    # - jquery-2.1.4
+    # - bootstrap
+    # - slick
+    # - slides
+    # - layout
+    # - flickr-import
+  attributes:
+    async: async
+# yaml gems: - jekyll-sitemap - jekyll-gist - jekyll/minibundle

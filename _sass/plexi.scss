@@ -22,6 +22,9 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+$animate-speed:     300ms !default;
+$animate-equation:  ease-out;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {

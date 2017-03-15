@@ -7,12 +7,17 @@
   height: 50px;
   background: rgba(255,255,255,0.75);
   @include box-shadow(0,4px,20px,rgba(0,0,0,0.25),false);
+  @include transition(all $animate-speed*2 $animate-equation);
 
   // Positioning context for the mobile navigation icon
   position: fixed;
   left: 0;
   right: 0;
   z-index: 20;
+
+  &[isscrolled="true"] {
+    background: #fff;
+  }
 }
 
 .site-title {
@@ -134,47 +139,20 @@
 
 .footer-col {
   display: flex;
-  flex-basis: 33%;
   justify-content: center;
+  align-items: center;
   box-sizing: border-box;
-  line-height: 50px;
-  // margin-bottom: $spacing-unit / 2;
-  // padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-  // width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  // width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-  // width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  // width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-  // width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  // width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+  text-align: center;
+  line-height: 1;
+  p {
+    margin: 0;
   }
 }
 
 @include media-query($on-palm) {
   .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    display: block;
+    width: 100%;
   }
 }
 
