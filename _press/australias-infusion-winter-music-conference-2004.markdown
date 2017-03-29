@@ -1,9 +1,8 @@
 ---
-title: 'Australia\''s INFUSION :: Winter Music Conference 2004'
+title: 'Australia''s INFUSION :: Winter Music Conference 2004'
 date: 2004-03-06 00:00:00 -05:00
 categories:
 - Uncategorized
-layout: post
 status: publish
 author:
   display_name: Admin
@@ -16,6 +15,7 @@ author_url: http://www.plexipr.com
 wordpress_id: 138
 wordpress_url: http://www.plexipr.com/?p=138
 date_gmt: '2004-03-06 05:00:00 -0500'
+layout: post
 ---
 
 <h2>Australia\'s INFUSION @ Winter Music Conference 2004</h2>
