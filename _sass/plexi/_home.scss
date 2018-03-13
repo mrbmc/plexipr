@@ -67,12 +67,8 @@
 			background-position: center top;
 			overflow: hidden;
 
-			&:first-of-type {
-				background: url('/assets/images/masthead.jpg');
-			}
-
 			a {
-				background: rgba(0, 125, 198,.8);
+					background: hsla(40,50%,60%,0.8);
 				height: calc(30vh - 50px);
 				display: flex;
 				flex-basis: 100%;
@@ -89,6 +85,13 @@
 					text-decoration: none;
 				}
 			}
+			&:first-of-type {
+				background: url('/assets/images/masthead.jpg');
+				a {
+					background: rgba(0, 125, 198,.8);
+				}
+			}
+
 		}
 		&:after {
 			display: block;
