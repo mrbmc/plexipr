@@ -5,8 +5,8 @@
   // border-top: 5px solid $grey-color-dark;
   // border-bottom: 1px solid $grey-color-light;
   height: 50px;
-  background: rgba(255,255,255,0.75);
-  @include box-shadow(0,4px,20px,rgba(0,0,0,0.25),false);
+  background: rgba(255,255,255,1);
+  @include box-shadow(0,4px,20px,rgba(0,0,0,0.2),false);
   @include transition(all $animate-speed*2 $animate-equation);
 
   // Positioning context for the mobile navigation icon
@@ -115,6 +115,9 @@
   // padding: $spacing-unit 0;
   @include box-shadow(0,-4px,20px,rgba(0,0,0,0.25),false);
   height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-heading {
