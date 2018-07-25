@@ -12,7 +12,7 @@
 		justify-content: center;
 		overflow: hidden;
 
-		&:before {
+		&:after {
 			background: rgba(0,0,0,0.5);
 			position: absolute;
 			top: 0;
@@ -20,11 +20,11 @@
 			left: 0;
 			bottom: 0;
 			content:"";
+			z-index: 5;
 		}
 
 		h1 {
 			position: relative;
-			z-index: 10;
 			margin: 0;
 			color: #ffffff;
 			text-align: center;
@@ -32,15 +32,14 @@
 			line-height: 1.0;
 			font-weight: 200;
 			max-width: $content-width;
+			z-index: 10;
 		}
 
 		video {
 			position: absolute;
 			width: 100%;
-			@include opacity(.2);
-
 			position: absolute;
-			width: 100%;
+			z-index: 2;
 		}
 
 		@include media-query($on-palm) {
